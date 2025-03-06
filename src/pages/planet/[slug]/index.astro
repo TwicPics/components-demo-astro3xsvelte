@@ -3,7 +3,7 @@ import { planets } from "../../../data";
 import { type Planet } from "../../../types";
 import { getTransitionId } from "../../../utils";
 import Layout from "../../../layouts/Layout.astro";
-import { TwicImg } from "@twicpics/components/react";
+import { TwicImg } from "@twicpics/components/svelte5";
 import NavBar from "../../../components/NavBar.astro";
 import OtherPlanets from "../../../components/OtherPlanets.astro";
 const { slug } = Astro.params;
@@ -36,11 +36,10 @@ const { cover, name, subtitle } = planet;
       <TwicImg 
         src={ cover }
         alt={ name }
-        className="h-full"
-        client:load
+        class="h-full"
         mode="contain"
         ratio="none"
-        refit="2p" 
+        refit="2p"
       />
       <div
         class="absolute drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] right-4 text-gray-200 text-right top-4 "

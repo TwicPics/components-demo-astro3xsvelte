@@ -1,6 +1,6 @@
 # TwicPics Components + Astro.js
 
-This project is a demonstration project of [TwicPics Components](https://www.twicpics.com/docs/components/react?utm_source=github&utm_medium=organic&utm_campaign=components) using and [Astro.js](https://astro.build/) with [React.js](https://reactjs.org/) integration.
+This project is a demonstration project of [TwicPics Components](https://www.twicpics.com/docs/components/svelte-5?utm_source=github&utm_medium=organic&utm_campaign=components) using and [Astro.js](https://astro.build/) with [Svelte.js](https://docs.astro.build/en/guides/integrations-guide/svelte/) integration.
 
 ## How to build
 
@@ -77,7 +77,7 @@ If you don't already have one, you can easily [create your own TwicPics account 
 
 An example of configuration is set within `scr/layouts/Layout.astro` file.
 
-All you have to do is set your configuration options to the desired values ([see documentation](https://www.twicpics.com/docs/components/react?utm_source=github&utm_medium=organic&utm_campaign=components#setup-options)).
+All you have to do is set your configuration options to the desired values ([see documentation](https://www.twicpics.com/docs/components/svelte-5?utm_source=github&utm_medium=organic&utm_campaign=components#setup-options)).
 
 ## Examples
 
